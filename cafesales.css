@@ -1,0 +1,79 @@
+body{
+    background-color: burlywood;
+}
+.topmenu1{
+    height: 120px;
+    width: 100%;
+}
+.topmenu{
+    border: 8px solid black;
+    height: 120px;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.logo{
+    border: 2px solid burlywood;
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    
+}
+.button1{
+    border: 0px solid black;
+    height:40px;
+    width:150px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: burlywood;
+    justify-content: center;
+
+}
+.menutext{
+    text-align: center;
+    text-decoration: dashed;
+    color: black;
+    margin-left: 25%;
+    font-size: 1vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bigbox{
+    margin-top:70px;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 550px) ;
+    grid-template-rows: repeat(1, 700px);
+    gap:40px;
+    column-gap: 60px;
+    row-gap: 60px;
+    margin-right: 90px;
+    
+}
+.a2{
+    border: 8px solid black;
+    border-radius: 10%;
+    background-color: burlywood;
+    background-color: black;
+    color: burlywood;
+    text-align: center;
+    text-decoration: dashed;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1vw;
+}
+.picture{
+    margin-top: 20px;
+    height: 60%;
+    width: 90%;
+    border: 6px solid burlywood;
+    border-radius: 10%;
+
+}
+span{
+    font-size: 30px;
+    font-size: 1.5vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
